@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	text-align: center;
+}
+
+.mainDiv{
+	position: absolute;
+	left: 20%;
+	right: 20%;
+	top: 20%;
+	bottom: 20%;
+}
+
+h1{
+	margin: 0px 0px 30px 0px;
+}
+.inputDiv{
+	display: inline-flex;
+	flex-direction: column;
+}
+
+
+.inputDiv input{
+	margin: 5px auto;
+	padding: 10px 30px;
+	font-size: 15px;
+	border-radius: 5px;
+}
+#partName{
+	text-align: center;
+	border: 2px solid red;
+}
+
+.submit{
+	cursor: pointer;
+}
+
+.submit:hover{
+	color: white;
+	background-color: black;
+	transition: 0.5s;
+}
+.reload{
+	cursor: pointer;
+	display: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.reload:hover{
+	color: white;
+	background-color: black;
+	transition: 0.5s;
+}
